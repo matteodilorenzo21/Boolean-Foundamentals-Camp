@@ -1,0 +1,25 @@
+header{
+    background-color: rgb(210, 210, 210);
+    text-align: center;
+}
+hr{
+    border-color: rgb(255, 157, 0);
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(210, 210, 210);
+}
+
+body{
+    background-color: rgb(210, 210, 210);
+    font-family: Verdana;
+}
+.section_item{
+    text-decoration: underline;
+    color: orange;
+}

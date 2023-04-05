@@ -1,0 +1,124 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg);
+}
+
+.container{
+    width: 1250px;
+    margin: auto;
+}
+
+.row{
+    height: 30px;
+    border: 1px rgb(205, 205, 205) solid;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo_name{
+    font-size: 30px;
+    font-family: Tahoma;
+    display: inline-block;
+}
+
+#ricerca{
+    width: 280px;
+}
+
+#unread_items_advertizer{
+    font-family: Tahoma;
+}
+
+.row.read{
+    background-color: rgb(235, 235, 235);
+}
+
+.row.unread{
+    background-color: white;
+}
+
+#unread_items_counter{
+    color: white;
+    background-color: rgb(255, 90, 90);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.row_left, .row_right{
+    display: inline-block;
+}
+
+.row_left{
+    width: 30%;
+}
+
+.row_right{
+    width: 69%;
+}
+
+.mail_subject{
+    font-family: Tahoma;
+    font-weight: bold;
+
+}
+
+.mail_body{
+    font-family: Tahoma;
+}
+
+.mail_body:after{
+    content: '...';
+    color: rgb(128, 128, 128);
+}
+
+footer{
+    text-align: center;
+    font-family: Tahoma;
+}
+
+#footer_G{
+    font-size: 25px;
+    color: #4285F4;
+}
+
+#footer_M{
+    font-size: 25px;
+    color: #34A853;
+}
+
+#footer_A{
+    font-size: 25px;
+    color: #FBBC05;
+}
+
+#footer_I{
+    font-size: 25px;
+    color: #EA4335;
+}
+
+#footer_L{
+    font-size: 25px;
+    color: #4285F4;
+}
+
+hr{
+    border-color: rgb(180, 180, 180);
+}
+
+.star_img{
+    color: orange;
+}
+
+#filter_button{
+    display: inline-block;
+    height: 23px;
+    margin-left: 3px;
+}
+
+#filter_icon{
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-left: 8px;
+    width: 8px;
+}

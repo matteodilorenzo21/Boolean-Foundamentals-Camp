@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio Registrazione</title>
+</head>
+<body>
+    <div>
+        <h1>Registrazione</h1>
+    </div>
+    <div>
+        <form action="esercizio_registrazione.html">
+            <div>
+                <input type="text" name="Nome" placeholder="Nome" required minlength="3" maxlength="10">
+            </div>
+            <div>
+                <input type="text" name="Cognome" placeholder="Cognome" required minlength="3" maxlength="10">
+            </div>
+            <div>
+                <input type="email" name="Email" placeholder="E-mail" required>
+            </div>
+            <div>
+                <select name="Regione">
+                    <option>Abruzzo</option>                  
+                    <option>Basilicata</option>
+                    <option>Calabria</option>
+                    <option>Campania</option>
+                    <option>Emilia Romagna</option>
+                    <option>Friuli-Venezia Giulia</option>
+                    <option>Lazio</option>
+                    <option>Lombardia</option>
+                    <option>Marche</option>
+                    <option>Molise</option>
+                    <option>Piemonte</option>
+                    <option>Puglia</option>
+                    <option>Sardegna</option>
+                    <option>Sicilia</option>
+                    <option>Toscana</option>
+                    <option>Trentino-Alto Adige</option>
+                    <option>Umbria</option>
+                    <option>Val d'Aosta</option>
+                    <option>Veneto</option>
+                </select>
+            </div>
+            <div>
+                <input type="radio" name="maggiore_età"> 0-18
+                <input type="radio" name="maggiore_età"> 18+
+            </div>
+            <div>
+                <input type="checkbox" name="accept_tems_cond"> Accetta i termini e le condizioni
+            </div>
+            <div>
+                <input type="submit" value="Invia">
+            </div>
+        </form>       
+</body>
+</html>
